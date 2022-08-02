@@ -1,0 +1,9 @@
+port: '/dev/ttyUSB0'
+baud: 115200
+timeout: 0.1
+
+data_cycle: 0.1
+
+max_voltage: 16
+
+node_to_kill: ["/stack_grid", "/sth"]
